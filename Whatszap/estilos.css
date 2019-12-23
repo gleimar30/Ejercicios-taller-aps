@@ -1,0 +1,67 @@
+body{
+    margin:0;
+
+}
+
+main{
+    display: block;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.body{
+    border-style: solid;
+    border-color: red;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    position: absolute;
+}
+.section{
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+.aside{
+    border-style: solid;
+    border-color: green;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height: 600px;
+    
+}
+
+.titulo{
+    border-style: solid;
+    border-color: darkblue;
+    height:70px;
+}
+
+.contactos{
+    height:83px;
+    border-style: solid;
+    border-color: aquamarine;
+    
+}
+
+.caja{
+    border-style: solid;
+    border-color: cyan;
+}
+
+.caja2{
+    border-style: solid;
+    border-color: darkgreen;
+    height: 400px;
+}
+
+.input{
+    border-style: solid;
+    border-color: forestgreen;
+    height: 115px;
+}
