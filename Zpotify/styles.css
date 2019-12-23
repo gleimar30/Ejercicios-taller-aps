@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    
+}
+
+main{
+    display: block;
+}
+
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 40px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+    
+}
+
+.principal{
+    border-style:solid; 
+    border-color: #C3F1FF;
+    background: #F2FCFF;
+    position: relative;
+    border-radius: 10%;
+    width: 500px;
+    height: 700px;
+    
+}
+
+.cuerpo{
+    position: absolute;
+    top: 10px ;
+    left: 405px;
+    right: 200px;
+    bottom: 100px;
+}
+
+.artistas{
+    position: relative;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 130px 130px 130px;
+    bottom: auto;
+    top: 40px
+    
+}
+
+.artistas img{
+    
+    border-radius: 50%;
+    width: 60px;
+    height: 60%;
+    border: solid 1px black;
+    
+}
+
+.artistas article{
+    
+    position: relative;
+    background: turquoise;
+    border-radius: 10%;
+    height: 105px;
+    width: 100px;
+    left: 45px ;
+    text-align: center;
+    padding: 10px;
+}
